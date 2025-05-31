@@ -164,7 +164,7 @@ export default function StreaksScreen() {
 
       {rankedHabits.length > 0 && (
         <View style={styles.rankingContainer}>
-          <Text style={styles.rankingTitle}> 🏅 Top Streaks</Text>{" "}
+          <Text style={styles.rankingTitle}> 🏅 Top Streaks</Text>
           {rankedHabits.slice(0, 3).map((item, key) => (
             <View key={key} style={styles.rankingRow}>
               <View style={[styles.rankingBadge, badgeStyles[key]]}>
