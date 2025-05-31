@@ -172,7 +172,6 @@ export default function Index() {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text variant="headlineSmall" style={styles.title}>
-          {" "}
           Today's Habits
         </Text>
         <Button mode="text" onPress={signOut} icon={"logout"}>
