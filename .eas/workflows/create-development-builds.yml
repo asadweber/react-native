@@ -1,4 +1,4 @@
-name: Create development builds
+name: Create Development Builds
 
 jobs:
   android_development_build:
@@ -7,9 +7,17 @@ jobs:
     params:
       platform: android
       profile: development
+
   ios_device_development_build:
-    name: Build iOS device
+    name: Build iOS Device
     type: build
     params:
       platform: ios
       profile: development
+
+  ios_simulator_development_build:
+    name: Build iOS Simulator
+    type: build
+    params:
+      platform: ios
+      profile: development-simulator
