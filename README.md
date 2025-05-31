@@ -127,6 +127,7 @@ Your live app will be hosted on a custom subdomain (e.g. `https://your-name.expo
 
 
 
-eas workflow:run .eas/workflows/create-development-builds.yml
+ eas workflow:run .eas/workflows/create-development-builds.yml
+ 
 
 eas workflow:run .eas/workflows/create-production-builds.yml
