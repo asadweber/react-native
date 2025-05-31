@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "react-native-course",
-    "slug": "react-native-course",
+    "name": "habit",
+    "slug": "habit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "reactnativecourse",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "owner": "asad.weber",
     "ios": {
       "supportsTablet": true
     },

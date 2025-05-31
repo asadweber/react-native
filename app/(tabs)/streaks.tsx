@@ -159,13 +159,11 @@ export default function StreaksScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title} variant="headlineSmall">
-        {" "}
         Habit Streaks
       </Text>
 
       {rankedHabits.length > 0 && (
         <View style={styles.rankingContainer}>
-          {" "}
           <Text style={styles.rankingTitle}> 🏅 Top Streaks</Text>{" "}
           {rankedHabits.slice(0, 3).map((item, key) => (
             <View key={key} style={styles.rankingRow}>
@@ -195,11 +193,9 @@ export default function StreaksScreen() {
             >
               <Card.Content>
                 <Text variant="titleMedium" style={styles.habitTitle}>
-                  {" "}
                   {habit.title}
                 </Text>
                 <Text style={styles.habitDescription}>
-                  {" "}
                   {habit.description}
                 </Text>
                 <View style={styles.statsRow}>
